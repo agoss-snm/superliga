@@ -1,0 +1,32 @@
+#potter-animation {
+    width: 100%;
+    height: 100%;
+        position: absolute;
+      bottom: 50px;
+    }
+    .spell-text li {
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bold;
+        padding-right: 15px;
+        
+      }
+      .sl {
+        color: rgb(26, 26, 26);
+        font: 15px 'Cinzel';
+        letter-spacing: 3px;
+      }
+      .gr {
+        color: rgb(26, 26, 26);
+        font: 15px 'Cinzel';
+        letter-spacing: 3px;
+       
+      }
+  .sl:hover{
+    cursor: url('../varita.png'), auto;
+    z-index: 1;
+  }
+  .gr:hover{
+    cursor: url('../varita.png'), auto;
+    z-index: 1;
+  }

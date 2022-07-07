@@ -1,0 +1,92 @@
+@media (max-width: 600px) {
+    .harry{
+        width: 90px !important;
+        height: 110px !important;
+        left: 15% !important;
+        top:110% !important;
+       
+    }
+    #bottons{
+        margin-left: 0% !important;
+      }
+  }
+  #bottons{
+    margin-left: 50%;
+  }
+  #bottons a{
+    padding: 15px 25px;
+    width: 100%;
+    color: rgb(216, 18, 18);
+    font: 'Cinzel';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 70px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4) ;
+    width: 100px;
+    background-color: rgba(240, 248, 255, 0.308);
+}
+#bottons a:hover{
+    background-color: rgb(255, 255, 255);
+}
+li{
+    margin-top: 30px;
+    list-style:none;
+}
+h1 {
+	font: 60px 'Cinzel Decorative';
+	margin: 1.5em 0 .1em;
+    position: relative;
+    text-align: center;
+    font-family: 'Harry Potter', sans-serif;
+    color: rgb(26, 26, 26);
+    text-shadow: 0.2em 0.5em 0.1em rgb(161, 161, 161),
+	  -0.3em 0.1em 0.1em rgb(185, 185, 185),
+	  0.4em -0.3em 0.1em rgb(255, 255, 255)
+}
+.tittle{
+    margin:  1em 0 .1em !important; 
+}
+h3 {
+    
+	font: 17px 'Cinzel';
+    position: relative;
+    text-align: center;
+    color: rgb(26, 26, 26);
+}
+.harry{
+    width: 300px;
+    height: 300pxpx;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    animation: fadeInFromTop .5s linear forwards, floating ease 7s infinite;
+}
+@keyframes fadeInFromTop{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    25%{
+        transform: translate(0%, 10%) rotate(360deg);
+    }
+    50%{
+        transform: translate(0%, 5%) rotate(360deg);
+    }
+    75%{
+        transform: translate(0%, 10%) rotate(360deg);
+    }
+    100%{
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+};
+

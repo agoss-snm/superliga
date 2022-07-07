@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Athiti', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    background: 
+      url(https://i.ytimg.com/vi/h036iewRjx4/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .App{
+    cursor: url('./components/varita.png'), auto;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+html{
+    cursor: url('./components/varita.png'), auto;
+    z-index: 1;
+    width: 100%;
+
+    position: relative;
+}
+
